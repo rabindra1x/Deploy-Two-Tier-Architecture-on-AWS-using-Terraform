@@ -108,6 +108,123 @@ Domain Name Configured manually and add the Name Servers to your Domain Provider
 # Step-by-Step Guide
 
 ```bash
-git clone https://github.com/NotHarshhaa/DevOps-Projects
+git clone https://github.com/rabindra1x/Deploy-Two-Tier-Architecture-on-AWS-using-Terraform.git
 ```
+
+
+```bash
+terraform plan -var-file=variables.tfvars
+```
+
+<img width="736" height="233" alt="image" src="https://github.com/user-attachments/assets/f1085f8f-1104-4c0c-85f2-f15c04715dfa" />
+
+
+```bash
+terraform apply -var-file=variables.tfvars --auto-approve
+
+```
+
+<img width="736" height="208" alt="image" src="https://github.com/user-attachments/assets/be7d10fe-3273-4884-bd19-cf7fd2a7a5c1" />
+
+Once the deployment is complete, you can inspect the created services using the provided snippets for each service.
+
+
+# VPC & Other Networking related Services 
+
+VPC 
+<img width="736" height="83" alt="image" src="https://github.com/user-attachments/assets/5e5bbc9f-6c27-47f3-add5-92d3fdf6ce6b" />
+
+Public and Private Subnets
+<img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/b325d1d2-fea4-4580-aa0d-c3dff9757820" />
+
+
+Public and Private Route tables
+<img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/a938c520-9b4f-4570-96bd-8a9f2850a65f" />
+
+Internet Gateway
+
+<img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/620be178-1935-4b05-88aa-e39ba66d1f56" />
+
+
+Elastic IP addresses 
+<img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/106000aa-5a92-47ef-81c2-aa60145d20e5" />
+
+NAT Gateways
+
+<img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/7bce4872-227c-4997-9541-74ba150a5fa8" />
+
+Security Groups
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/47644ecf-0765-48ae-85fe-e2885eda91d3" />
+
+# EC2 & AutoScaling Group 
+
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/0bf6d28f-338f-44fd-8b97-f6d32a5481f7" />
+
+AutoScaling Group
+
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/c9062d31-b4cc-40a4-b51a-974ec37633fa" />
+
+# Target Group & Load Balancer
+
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/519351a0-f3f3-40f0-9713-d325c9a77694" />
+
+Load balancer
+
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/7bfe66df-4832-4fe8-ad83-fa405e27bf39" />
+
+
+# Database 
+
+Subnet Group for RDS
+
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/642f41f2-3a1b-4e7e-a27e-0fd3315b2901" />
+
+<img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/fc938bc8-ffe9-422d-84e5-47bcac594bea" />
+
+
+
+# After Core Service, Deploy Service on Server 
+
+<img width="736" height="234" alt="image" src="https://github.com/user-attachments/assets/13116726-3755-4a6f-bc77-346d87e39c7f" />
+
+# TF State file and State lock
+<img width="736" height="189" alt="image" src="https://github.com/user-attachments/assets/55a85ab5-ff9c-4238-bbd5-055312ac1bc9" />
+
+
+Once the deployment is completed, you can enter your domain name in the browser to validate whether your servers are perfectly running or not.
+
+As you can see in the below snippet, the Application is running
+<img width="736" height="387" alt="image" src="https://github.com/user-attachments/assets/880565a5-85dc-4852-9570-d71eb9efafd0" />
+
+
+# Clean-up
+
+When you’re done exploring the Two-Tier architecture and want to avoid incurring unnecessary costs, follow these steps to clean up the resources:
+
+Run the following command to initiate the destruction of the infrastructure.
+
+
+```bash
+terraform destroy -var-file=variables.tfvars --auto-approve
+```
+
+<img width="736" height="204" alt="image" src="https://github.com/user-attachments/assets/fffb63a5-00ae-4c2f-8d69-9d7653065d8b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
