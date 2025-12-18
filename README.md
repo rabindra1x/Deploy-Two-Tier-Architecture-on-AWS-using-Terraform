@@ -107,8 +107,7 @@ Domain Name Configured manually and add the Name Servers to your Domain Provider
 
 # Step-by-Step Guide
 
-
-'''  print(hello world) ''' 
-
-
+```bash
+git clone https://github.com/NotHarshhaa/DevOps-Projects
+```
 
