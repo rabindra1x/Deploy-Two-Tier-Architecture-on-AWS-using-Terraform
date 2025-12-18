@@ -132,13 +132,16 @@ Once the deployment is complete, you can inspect the created services using the 
 # VPC & Other Networking related Services 
 
 VPC 
+
 <img width="736" height="83" alt="image" src="https://github.com/user-attachments/assets/5e5bbc9f-6c27-47f3-add5-92d3fdf6ce6b" />
 
 Public and Private Subnets
+
 <img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/b325d1d2-fea4-4580-aa0d-c3dff9757820" />
 
 
 Public and Private Route tables
+
 <img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/a938c520-9b4f-4570-96bd-8a9f2850a65f" />
 
 Internet Gateway
@@ -147,6 +150,7 @@ Internet Gateway
 
 
 Elastic IP addresses 
+
 <img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/106000aa-5a92-47ef-81c2-aa60145d20e5" />
 
 NAT Gateways
@@ -154,6 +158,7 @@ NAT Gateways
 <img width="736" height="94" alt="image" src="https://github.com/user-attachments/assets/7bce4872-227c-4997-9541-74ba150a5fa8" />
 
 Security Groups
+
 <img width="736" height="114" alt="image" src="https://github.com/user-attachments/assets/47644ecf-0765-48ae-85fe-e2885eda91d3" />
 
 # EC2 & AutoScaling Group 
@@ -188,12 +193,14 @@ Subnet Group for RDS
 <img width="736" height="234" alt="image" src="https://github.com/user-attachments/assets/13116726-3755-4a6f-bc77-346d87e39c7f" />
 
 # TF State file and State lock
+
 <img width="736" height="189" alt="image" src="https://github.com/user-attachments/assets/55a85ab5-ff9c-4238-bbd5-055312ac1bc9" />
 
 
 Once the deployment is completed, you can enter your domain name in the browser to validate whether your servers are perfectly running or not.
 
 As you can see in the below snippet, the Application is running
+
 <img width="736" height="387" alt="image" src="https://github.com/user-attachments/assets/880565a5-85dc-4852-9570-d71eb9efafd0" />
 
 
